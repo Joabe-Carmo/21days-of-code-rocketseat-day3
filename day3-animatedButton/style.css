@@ -1,0 +1,36 @@
+body{
+  background-image: linear-gradient(green, rgb(154, 241, 154));
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;  
+}
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button{
+  border-radius: 40px;
+  border-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  background-color: white;
+  transition-property: all;
+  transition-duration: 1s; 
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(169, 238, 169);  
+  transition-duration: 2s;
+  width: 300px;
+  font-size: 40px;
+}
